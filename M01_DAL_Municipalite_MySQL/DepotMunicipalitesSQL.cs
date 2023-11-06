@@ -24,8 +24,7 @@ namespace M01_DAL_Municipalite_MySQL
 
         public Municipalite ChercherMunicipaliteParCodeGeographique(int p_codeGeograhpique)
         {
-            return m_dbContext.MUNICIPALITES.Where(m => m.MunicipaliteID == p_codeGeograhpique).SingleOrDefault().VersEntite();
-            
+            return m_dbContext.MUNICIPALITES.Where(m => m.MunicipaliteID == p_codeGeograhpique).SingleOrDefault().VersEntite(); 
         }
 
         public void DesactiverMunicipalite(srvm.Municipalite p_municipalite)

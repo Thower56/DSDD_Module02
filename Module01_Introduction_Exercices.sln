@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01_DAL_Municipalite_SQL", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestMunicipalite", "TestMunicipalite\TestMunicipalite.csproj", "{683295C5-077B-4DFF-B58B-950A20709BB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M01_DAL_Import_Munic_REST_JSON", "M01_DAL_Import_Munic_REST_JSON\M01_DAL_Import_Munic_REST_JSON.csproj", "{A33E6064-F964-48E2-A96D-4219C5D2D449}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "M01_DAL_Import_Munic_REST_JSON", "M01_DAL_Import_Munic_REST_JSON\M01_DAL_Import_Munic_REST_JSON.csproj", "{A33E6064-F964-48E2-A96D-4219C5D2D449}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "M03_API_Municipalite", "M03_API_Municipalite\M03_API_Municipalite.csproj", "{1FD7D585-7717-4E9B-953F-D3D292557A90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{A33E6064-F964-48E2-A96D-4219C5D2D449}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A33E6064-F964-48E2-A96D-4219C5D2D449}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A33E6064-F964-48E2-A96D-4219C5D2D449}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FD7D585-7717-4E9B-953F-D3D292557A90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FD7D585-7717-4E9B-953F-D3D292557A90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FD7D585-7717-4E9B-953F-D3D292557A90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FD7D585-7717-4E9B-953F-D3D292557A90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
