@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DSED_M01_Fichers_Texte": {
+      "commandName": "Project",
+      "commandLineArgs": "json"
+    }
+  }
+}
